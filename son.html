@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>son</title>
+</head>
+
+<body>
+  <p>son</p>
+  <script>
+    const url = "https://easyview.seepln.com/Just/test/测试文件夹/testiframe.html";
+
+    const aa = new URL(url).searchParams.has('deepRequest') ? url : new URL(url).searchParams.set('deepRequest', '1')
+    console.log('aa: ', aa);
+
+    const params = {path:'1111',need: false};
+    function fun (path,need) {
+      console.log('path: ', path);
+    }
+    fun(...Object.values(params))
+
+    const newData0 = [
+    {
+        "Account": "严重性风险",
+        "data": 3,
+        "fengxian_level": "现金流覆盖比率",
+        "_origin": {
+            "Account": "yanzhong",
+            "fengxian_level": "A1_002"
+        }
+    },
+    {
+        "Account": "严重性风险",
+        "data": 2,
+        "fengxian_level": "数据安全事件频率",
+        "_origin": {
+            "Account": "yanzhong",
+            "fengxian_level": "B1_001"
+        }
+    },
+    {
+        "Account": "严重性风险",
+        "data": 4,
+        "fengxian_level": "技术支持满意度",
+        "_origin": {
+            "Account": "yanzhong",
+            "fengxian_level": "B1_003"
+        }
+    },
+    {
+        "Account": "严重性风险",
+        "data": 2,
+        "fengxian_level": "市场份额",
+        "_origin": {
+            "Account": "yanzhong",
+            "fengxian_level": "C1_001"
+        }
+    },
+    {
+        "Account": "严重性风险",
+        "data": 5,
+        "fengxian_level": "供应商依赖度",
+        "_origin": {
+            "Account": "yanzhong",
+            "fengxian_level": "D1_001"
+        }
+    },
+    {
+        "Account": "严重性风险",
+        "data": 3,
+        "fengxian_level": "供应链灵活性",
+        "_origin": {
+            "Account": "yanzhong",
+            "fengxian_level": "D1_003"
+        }
+    },
+    {
+        "Account": "严重性风险",
+        "data": 5,
+        "fengxian_level": "市场增长率",
+        "_origin": {
+            "Account": "yanzhong",
+            "fengxian_level": "C1_003"
+        }
+    },
+    {
+        "Account": "严重性风险",
+        "data": 4,
+        "fengxian_level": "客户满意度",
+        "_origin": {
+            "Account": "yanzhong",
+            "fengxian_level": "C1_002"
+        }
+    },
+    {
+        "Account": "严重性风险",
+        "data": 4,
+        "fengxian_level": "库存周转率",
+        "_origin": {
+            "Account": "yanzhong",
+            "fengxian_level": "D1_002"
+        }
+    },
+    {
+        "Account": "严重性风险",
+        "data": 5,
+        "fengxian_level": "技术更新频率",
+        "_origin": {
+            "Account": "yanzhong",
+            "fengxian_level": "B1_002"
+        }
+    },
+    {
+        "Account": "严重性风险",
+        "data": 4,
+        "fengxian_level": "利润毛利率",
+        "_origin": {
+            "Account": "yanzhong",
+            "fengxian_level": "A1_003"
+        }
+    },
+    {
+        "Account": "严重性风险",
+        "data": 2,
+        "fengxian_level": "负债比率",
+        "_origin": {
+            "Account": "yanzhong",
+            "fengxian_level": "A1_001"
+        }
+    },
+    {
+        "Account": "可能性风险",
+        "data": 3,
+        "fengxian_level": "现金流覆盖比率",
+        "_origin": {
+            "Account": "keneng",
+            "fengxian_level": "A1_002"
+        }
+    },
+    {
+        "Account": "可能性风险",
+        "data": 5,
+        "fengxian_level": "数据安全事件频率",
+        "_origin": {
+            "Account": "keneng",
+            "fengxian_level": "B1_001"
+        }
+    },
+    {
+        "Account": "可能性风险",
+        "data": 3,
+        "fengxian_level": "技术支持满意度",
+        "_origin": {
+            "Account": "keneng",
+            "fengxian_level": "B1_003"
+        }
+    },
+    {
+        "Account": "可能性风险",
+        "data": 3,
+        "fengxian_level": "市场份额",
+        "_origin": {
+            "Account": "keneng",
+            "fengxian_level": "C1_001"
+        }
+    },
+    {
+        "Account": "可能性风险",
+        "data": 3,
+        "fengxian_level": "市场增长率",
+        "_origin": {
+            "Account": "keneng",
+            "fengxian_level": "C1_003"
+        }
+    },
+    {
+        "Account": "可能性风险",
+        "data": 4,
+        "fengxian_level": "客户满意度",
+        "_origin": {
+            "Account": "keneng",
+            "fengxian_level": "C1_002"
+        }
+    },
+    {
+        "Account": "可能性风险",
+        "data": 4,
+        "fengxian_level": "技术更新频率",
+        "_origin": {
+            "Account": "keneng",
+            "fengxian_level": "B1_002"
+        }
+    },
+    {
+        "Account": "可能性风险",
+        "data": 2,
+        "fengxian_level": "利润毛利率",
+        "_origin": {
+            "Account": "keneng",
+            "fengxian_level": "A1_003"
+        }
+    },
+    {
+        "Account": "可能性风险",
+        "data": 2,
+        "fengxian_level": "负债比率",
+        "_origin": {
+            "Account": "keneng",
+            "fengxian_level": "A1_001"
+        }
+    }
+]
+
+newData0.forEach((info,index) => {
+  debugger
+if(info.fengxian_level === '市场份额') {
+  newData0[index].fengxian_level = '市场的份额修改过'
+}
+});
+console.log('newData0: ', newData0);
+  </script>
+</body>
+
+</html>
